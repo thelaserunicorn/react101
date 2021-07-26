@@ -36,7 +36,7 @@ Variables
   --clr-black: #222;
   --transition: all 0.3s linear;
   --spacing: 0.1rem;
-  --radius: 0.25rem;
+  --radius: 0.75rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
   --max-width: 1170px;
@@ -187,6 +187,8 @@ main {
   padding: 0.5rem 0;
   letter-spacing: var(--spacing);
   border-radius: var(--radius);
-  outline: 1px solid rgba(242, 138, 178, 0.8);
+
   cursor: pointer;
 }
+
+
