@@ -1,9 +1,11 @@
 import React from 'react'
 
-const SearchBox = () => {
+const SearchBox = ({value, setSearchValue}) => {
     return (
         <div className="col col-sm-4">
-            <input className="form-control" placeholder="Search Movies"></input>
+            <input value={value}
+				onChange={(event) => setSearchValue(event.target.value)}
+				placeholder='Type to search...' className="form-control" ></input>
         </div>
     )
 }
