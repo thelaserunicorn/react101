@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 import MovieList from "./components/MovieList";
 import MovieListHeading from './components/MovieListHeading';
+import SearchBox from './components/SearchBox';
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
     <div className="container-fluid movie-app">
     <div className="row">
       <MovieListHeading heading="Movies"/>
+      <SearchBox/>
     </div>
     <div className="row">
       <MovieList movies={movies}/>

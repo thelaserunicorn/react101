@@ -2,8 +2,8 @@ import React from 'react'
 
 const SearchBox = () => {
     return (
-        <div>
-            
+        <div className="col col-sm-4">
+            <input className="form-control"></input>
         </div>
     )
 }
